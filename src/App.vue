@@ -29,7 +29,6 @@
       </v-list>
     </v-navigation-drawer>
     
-    <v-subheader inset>Profile</v-subheader>
     <v-content>
       <Profile />
     </v-content>
@@ -46,8 +45,6 @@
       <Skills />
     </v-content>
     
-    <v-divider inset></v-divider>
-    <v-subheader inset>Contact</v-subheader>
     <v-content>
       <Contact />
     </v-content>
@@ -108,5 +105,9 @@ export default {
   flex-direction: row;
   margin-left: 70px;
   flex-wrap: wrap;
+}
+
+.footer {
+  width: 100%;
 }
 </style>

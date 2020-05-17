@@ -61,7 +61,7 @@ export default {
           "Knowledge in all important areas of AWS, for example in EC2, Route 53 and S3",
         image: "/assets/senseering-desc.png"
       }
-    ]
+    ],
   })
 };
 </script>
